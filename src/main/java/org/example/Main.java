@@ -9,7 +9,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your reply type: ");
+        System.out.print("Enter your reply type(FORMAL, FRIENDLY, CONCISE): ");
         String replyType = scanner.nextLine().toUpperCase();
 
         System.out.print("Enter your message: ");
